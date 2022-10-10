@@ -12,7 +12,7 @@ weave_options:
 <!-- You shouldn't need to modify this -->
 ```julia; echo = false; results = "hidden"
 using Pkg
-Pkg.activate(".")
+Pkg.activate(@__DIR__)
 Pkg.instantiate()
 ```
 
